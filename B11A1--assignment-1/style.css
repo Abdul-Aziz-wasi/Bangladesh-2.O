@@ -171,6 +171,7 @@ body{
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position:  13px 12px;
+    border-radius: 8px;
     
 
 }
@@ -196,6 +197,7 @@ body{
 
 #r-n{
    margin-bottom: 5px;
+   
 }
 
 .news{
@@ -207,6 +209,7 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .news .satelite{
@@ -240,3 +243,78 @@ body{
 .news-2{
     margin: 22px 120px 24px 160px;
 }
+
+.donation{
+    margin: 45px 120px 24px 160px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    width: 1080;
+}
+
+.d-h1{
+    margin-bottom: 5px;
+}
+.d-p{
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.tk{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 1050px;
+}
+
+.taka{
+    height: 50px;
+    width: 180x;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.second{
+    background-color: #C6E4D6;
+
+}
+
+
+
+  .placeholder{
+    height: 50px;
+    width: 720px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+  }
+
+  .done-btn{
+    height: 28px;
+    width: 109px;
+    background-color: #006A50;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+
+  .subscribe{
+    background-color: #C6E4D6;
+  }
+
+  .sec{
+    margin-bottom: 15px;
+  }
+
+  .sub{
+    height: 50px;
+    margin-left: none;
+  }
