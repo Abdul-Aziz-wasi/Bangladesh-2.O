@@ -51,7 +51,6 @@ body{
 }
 .left-item{
     margin-right: 30px;
-   
 
 }
 
@@ -286,12 +285,13 @@ body{
 
 
   .placeholder{
-    height: 50px;
+    height: 40px;
     width: 720px;
     margin-top: 18px;
     text-align: center;
     font-size: 18px;
     border: 1px solid #FFFFFF;
+    border-radius: 5px;
   }
 
   .done-btn{
@@ -308,13 +308,37 @@ body{
 
   .subscribe{
     background-color: #C6E4D6;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 260px;
+    padding: 18px;
   }
 
   .sec{
     margin-bottom: 15px;
+    border-radius: 5px 0px 0px 5px;
+    
   }
 
   .sub{
-    height: 50px;
-    margin-left: none;
+    height: 42px;
+    width: 109px;
+    background-color: #006A50;
+    justify-content: center;
+    align-items: center;
+    border-radius:0px  5px 5px 0px;
+    border: none;
+    margin-top: 18px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    position: relative;
   }
+.spam{
+    color: #8a8484;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.footer{
+    margin-top: 40px;
+}
