@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 .head{
     display: flex;
     justify-content: space-between;
-    margin: 24px 160px 24px;
+    margin: 24px 100px 24px 160px;
 }
 
 .name{
@@ -79,3 +79,164 @@ body{
 
 /* hero section end */
 
+/* future vision section start*/
+
+.future-vision{
+    margin: 45px 120px 24px 160px;
+
+}
+
+.vision-heading{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+
+.vision-description{
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 24px;
+}
+
+.vision-cards{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.card-1{
+    background-color: #a5bde9;
+    height: 200px;
+    width: 380px;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.card-2{
+    background-color: #C6E4D6;
+    height: 200px;
+    width: 380px;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.card-3{
+    background-color: #F7EBCF;
+    height: 200px;
+    width: 380px;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.card-content{
+    padding: 6px;
+}
+
+.learn-more-btn{
+    height: 30px;
+    width: 90px;
+    margin: 5px 0px 0px 5px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.btn-1{
+    background-color: #5490F5;
+}
+.btn-2{
+    background-color: #09A15C;
+}
+
+.btn-3{
+    background-color: #FFC239;
+}
+
+.btn-1:hover{
+    background-color: #8a8484;;
+}
+
+.btn-2:hover{
+    background-color: #8a8484;;
+}
+
+.btn-3:hover{
+    background-color: #8a8484;
+}
+
+.speech{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 160px;
+    padding: 20px 12px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:  13px 12px;
+    
+
+}
+#dialouge{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#title{
+    margin-bottom: 15px;
+    color: #8a8484;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* future vision section end */
+
+
+/* News section start */
+
+.news-section{
+     margin: 45px 120px 24px 160px;
+
+}
+
+#r-n{
+   margin-bottom: 5px;
+}
+
+.news{
+    display: flex;
+    margin-top: 24px;
+    gap: 24px;
+    background-color: #FFFFFF;
+    height: 260px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.news .satelite{
+    width: 270px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.news-text{
+    height: 200px;
+    width: 690px;
+}
+
+.a-j{
+    height: 28px;
+    width: 100px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+#read-more-btn{
+    height: 28px;
+    width: 109px;
+    background-color: #006A50;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+    color: #FFFFFF;
+}
+
+.news-2{
+    margin: 22px 120px 24px 160px;
+}
